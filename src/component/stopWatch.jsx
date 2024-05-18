@@ -47,7 +47,7 @@ const Stopwatch = () => {
         flexDirection: "column",
       }}
     >
-      <h1>StopWatch</h1>
+      <h1>Stopwatch</h1>
       <h4>{min}</h4>
       <div>
         <button onClick={handleWatch}>{timer ? "Stop" : "Start"}</button>
